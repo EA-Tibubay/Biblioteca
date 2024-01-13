@@ -1,0 +1,180 @@
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f8f9fa;
+}
+
+.container {
+	max-width: 1200px;
+}
+
+.contenedor_l {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin: 0 auto;
+	padding-top: 10ex;
+}
+
+.titulo {
+	background-color: #007bff;
+	color: #ffffff;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.titulo h4 {
+	margin: 0;
+}
+
+#cerrarFormulario {
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+}
+
+.tarjetaLibro {
+	transition: transform 0.3s ease-in-out;
+}
+
+.tarjetaLibro:hover {
+	transform: scale(1.05);
+}
+
+.card {
+	border: none;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background: radial-gradient(circle at center, #D3D3D3, #696969);
+}
+
+.card-img-top {
+	border-bottom: 1px solid #dee2e6;
+	padding-top: 5px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0 0 10px #000000;
+	height: 250px;
+	object-fit: contain;
+
+}
+
+.card-body {
+	padding: 15px;
+}
+
+.card-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.card-text {
+	color: black;
+	margin-bottom: 0.2rem;
+}
+
+#inputBusqueda {
+	width: 70%;
+	margin-right: 10px;
+}
+
+#btnBuscar {
+	width: 28%;
+}
+
+@media (max-width: 768px) {
+	#inputBusqueda {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	#btnBuscar {
+		width: 100%;
+	}
+}
+
+#botonGuardar {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#botonGuardarContainer {
+	text-align: center;
+}
+
+#formulario {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: radial-gradient(circle at center, #85d1e8, #00778d);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	width: 400px;
+	/* Ancho del formulario */
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+#formulario label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#formulario input,
+#formulario select {
+	width: calc(100% - 20px);
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+#nombrePrestamo {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#cerrarFormulario {
+	cursor: pointer;
+	text-align: right;
+	font-size: 18px;
+}
+
+#cerrarFormulario:hover{
+	color: red;
+	font-weight: bold;
+}
+
+#cerrarFormulariom {
+	cursor: pointer;
+	text-align: right;
+	font-size: 18px;
+}
+
+#cerrarFormulariom:hover{
+	color: red;
+	font-weight: bold;
+}
+
+.card-id{
+	display: none;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    
+    column-gap: 10px; 
+}

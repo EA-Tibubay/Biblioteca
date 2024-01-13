@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/fondo_libreria_1.jpg');
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+	background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card-header {
+    background-color: #fffaeb;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+	color: white;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: steelblue; 
+    border: 1px solid #967c52;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: dodgerblue;
+    border: 1px solid #7b653f;
+}

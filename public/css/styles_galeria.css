@@ -1,0 +1,50 @@
+
+.contenedor_l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.tarjetaFoto {
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background: radial-gradient(circle at center, #D3D3D3, #696969);
+	justify-content: center;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.card-title {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.container {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+

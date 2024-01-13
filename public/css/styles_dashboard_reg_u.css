@@ -1,0 +1,75 @@
+/* styles_formulario.css */
+
+.color1 {
+    color: #2d2d29;
+}
+
+.color2 {
+    color: #215a6d;
+}
+
+.color3 {
+    color: #3ca2a2;
+}
+
+.color4 {
+    color: #92c7a3;
+}
+
+.color5 {
+    color: #dfece6;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #215a6d;
+    border: 1px solid #92c7a3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    color: #dfece6;
+}
+
+.form-control {
+    background-color: #2d2d29;
+    color: #dfece6;
+    border: 1px solid #92c7a3;
+}
+
+.form-control:focus {
+    border-color: #3ca2a2;
+    box-shadow: 0 0 5px rgba(60, 162, 162, 0.3);
+}
+
+.form-select {
+    background-color: #2d2d29;
+    color: #dfece6;
+    border: 1px solid #92c7a3;
+}
+
+.btn-primary {
+    background-color: #3ca2a2;
+    color: #dfece6;
+}
+
+.btn-primary:hover {
+    background-color: #215a6d;
+}
+
+#cerrarFormulario {
+    width: 32px;
+    height: 32apx;
+    float: right;
+}
+
+#cerrarFormulario:hover img{
+    border-style: solid;
+  	border-width: medium;
+	border-color: white;
+}
+

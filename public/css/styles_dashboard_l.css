@@ -1,0 +1,80 @@
+.icono
+{
+	width: 32px;
+	height: 32px;
+}
+
+.cont_ico
+{
+	text-align: center;
+}
+
+
+body {
+    
+}
+
+.contenedor_l {
+    color: #2d2d29;
+	padding-top: 10px;
+	margin-top: 100px;
+	background-color: rgba(70, 130, 180, 0.9);
+	height: 100%
+}
+
+
+.table {
+    background-color: #3ca2a2;
+    color: #2d2d29;
+    border: 1px solid black;
+    border-radius: 5px;
+	height: auto;
+}
+
+.titulo
+{
+	border-radius: 10px;
+	background-color: honeydew;
+	padding: 10px;
+	margin: auto;
+}
+
+.dataTables_length
+{
+	border-radius: 10px;
+	background-color: honeydew;
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.dataTables_filter
+{
+	border-radius: 10px;
+	background-color: honeydew;
+	padding: 10px;
+	margin: 10px;
+}
+
+.table th,
+.table td {
+    border-color: #2d2d29;
+}
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+
+.alert-primary {
+    background-color: #215a6d;
+    color: #dfece6;
+}
+
+#cerrarFormulario{
+	width: 32px;
+	height: 32px;
+}
+
+
